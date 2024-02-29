@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('/tentang');
 });
+
+Route::get('/anggota', function () {
+    return view('/anggota');
+});
